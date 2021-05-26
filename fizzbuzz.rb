@@ -1,21 +1,18 @@
 # Don't forget! This file needs to be 'required' in its spec file
 
-require_relative './spec_helper.rb'
-require_relative '../fizzbuzz.rb'
-
 # See README.md for instructions on how to do this	# See README.md for instructions on how to do this
 
-def fizzbuzz
-  if fizzbuzz == 3
-    puts "Fizz"
-  elsif fizzbuzz == 5
-    puts "Buzz"
-  elsif fizzbuzz == 15
-    puts "FizzBuzz"
-  else fizzbuzz == 4
-    puts "nil"
+def fizzbuzz(number)
+  
+  if number % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
+  elsif number % 3 == 0
+    "Fizz"
+  elsif number % 5 == 0 
+   "Buzz"
+  end
+  
 end
-
 
 
 
