@@ -8,7 +8,7 @@ def fizzbuzz
     puts "Buzz"
   elsif fizzbuzz == 15
     puts "FizzBuzz"
-  else
+  else fizzbuzz == 4
     puts "nil"
 end
 
