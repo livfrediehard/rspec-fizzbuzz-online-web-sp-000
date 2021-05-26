@@ -2,7 +2,14 @@
 # See README.md for instructions on how to do this	# See README.md for instructions on how to do this
 
 def fizzbuzz
-  if fizzbuzz == 
+  if fizzbuzz == 3
+    puts "Fizz"
+  elsif fizzbuzz == 5
+    puts "Buzz"
+  elsif fizzbuzz == 15
+    puts "FizzBuzz"
+  else
+    puts "nil"
 end
 
 
